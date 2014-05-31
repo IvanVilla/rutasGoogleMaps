@@ -1,0 +1,66 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+    font-family: Arial, Verdana;
+}
+
+h1{
+  padding-left: 15px;
+  font-size: 1.5em;
+  line-height: 50px;
+  vertical-align:middle;
+  display: inline-block;
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(225, 225, 225, 1);
+  border-bottom: 2px solid black;
+  height: 50px;
+  width: 100%;
+  display: inline-block;
+}
+
+#map{
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute; /* posición absoluta a navegador */
+  top: 52px;      /* 52px debajo de borde de navegador */
+  left: 0;        /* ajusta a borde de navegador */
+  right: 0;
+  bottom: 0;
+  background: rgba(117, 111, 111, 1); /* gris si no hay mapa */
+}
+
+.button{
+  vertical-align:middle;
+  display: inline-block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-family: Arial, Verdana;
+  font-weight: bold;
+ font-size: 0.8em;
+
+}
+
+#address{
+  margin-left: 25px;
+  width: 225px;
+}
+
+input{
+  vertical-align:middle;
+}
+
+#distancia{
+  margin-left: 25px;
+  display: inline-block;
+   vertical-align:middle;
+}
